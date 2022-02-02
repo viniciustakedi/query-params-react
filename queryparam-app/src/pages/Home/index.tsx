@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import './style.css';
 
 const Home = () => {
 
@@ -18,10 +19,11 @@ const Home = () => {
 
     return (
         <div className="home">
-            <h1>Query Select</h1>
-            <h3>{token}</h3>
-            <h4>{name}</h4>
-
+            <h1>Query Parameters</h1>
+            <br />
+            <h2>{token}</h2>
+            <br />
+            <h3>{name}</h3>
         </div>
     );
 }
